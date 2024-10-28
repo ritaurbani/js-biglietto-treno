@@ -18,19 +18,18 @@ prezzo biglietto: in base ai km (0.21 al km)
 applicare sconto del 20% (per i minorenni eta'< 18)
 applciare sconto 40% (per i minorenni: eta'> 65)
 
-prezzo totale viaggio : prezzo biglietto - sconto
+prezzo finale viaggio : prezzo biglietto - sconto
 
 
 //ESECUZIONE LOGICA
 
-Calcolo il prezzo biglietto in base a input km (0.21 * km)
+Dichiaro la variabile del prezzo finale
 
-Dichiaro la variabile del risultato
-
-Se l'eta'utente e'minore di 18, risultato e': prezzo biglietto - (prezzo biglietto /100 *20)
-Se l'eta'utente e'maggiore di 65, risultato e': prezzo biglietto - (prezzo biglietto /100 *40)
-
+Se l'eta'utente e'minore di 18, applica sconto 20% a prezzo biglietto: (prezzo biglietto / 100 * 20)
+Calcolare prezzo finale sottraendo sconto a prezzo biglietto 
+Se l'eta'utente e'maggiore di 65, applica sconto 40% a prezzo biglietto: (prezzo biglietto / 100 * 40)
+Calcolare prezzo finale sottraendo sconto a prezzo biglietto 
 
 //OUTPUT
 
-stampo in console.log il risultato/prezzo finale viaggio: (con 2 due decimali)
+stampo in console.log il prezzo finale viaggio: (con 2 due decimali)
