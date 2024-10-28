@@ -15,11 +15,6 @@ Chiedere utente eta' - turn input into int
 
 prezzo biglietto: in base ai km (0.21 al km)
 
-applicare sconto del 20% (per i minorenni eta'< 18)
-applciare sconto 40% (per i minorenni: eta'> 65)
-
-prezzo finale viaggio : prezzo biglietto - sconto
-
 
 //ESECUZIONE LOGICA
 
@@ -27,6 +22,7 @@ Dichiaro la variabile del prezzo finale
 
 Se l'eta'utente e'minore di 18, applica sconto 20% a prezzo biglietto: (prezzo biglietto / 100 * 20)
 Calcolare prezzo finale sottraendo sconto a prezzo biglietto 
+
 Se l'eta'utente e'maggiore di 65, applica sconto 40% a prezzo biglietto: (prezzo biglietto / 100 * 40)
 Calcolare prezzo finale sottraendo sconto a prezzo biglietto 
 
